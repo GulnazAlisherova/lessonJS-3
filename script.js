@@ -30,3 +30,7 @@ exercisesElement.append(h3Element) // Attach
 let h4Element = document.createElement('h4');
 h4Element.textContent = "h4 Header";
 exercisesElement.append(h4Element) // Attach
+
+let h5Element = document.createElement('h5');
+h5Element.textContent = "h5 Header";
+exercisesElement.append(h5Element) // Attach
