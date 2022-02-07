@@ -4,4 +4,6 @@ h1Element.style.color = "rgb(255, 0 , 0)"; //modify
 
 //Method 2
 
-
+//create
+let h2Element = document.createElement(`h2`);
+//attach
