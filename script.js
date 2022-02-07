@@ -78,8 +78,11 @@
 // button2.textContent = "Hello";
 // exercisesElement.prepend(button2);
 
-let button2 = button.cloneNode(true);
-button2.textContent = "приветАндрей";
-button2.style.color = "tomato";
-button2.style.backgroundColor = "black";
-exercisesElement.prepend(button2);
+//how to remove
+// button2.remove();
+
+
+// let list2 = listElement.cloneNode(true);
+// exercisesElement.prepend
+
+let table = tableElement.cloneNode(true);
