@@ -12,11 +12,11 @@
 // // //modify
 // // h2Element.textContent = "Nice to meet you!";
 
-// let exercisesElement = document.querySelector('#exercises');
+let exercisesElement = document.querySelector('#exercises');
 
-// //append - insert element before closing tag
-// //prepend - insert element after opening tag
-// //before - 
+//append - insert element before closing tag
+//prepend - insert element after opening tag
+//before - 
 
 // let h1Element = document.createElement('h1'); //create
 // h1Element.textContent = "h1 Header";//modify
@@ -50,11 +50,8 @@
 // exercise1.prepend('prepend');
 // exercise1.append('append');
 // exercise1.after('after');
-// //exercise1/replaceWith('replaced');
+//exercise1/replaceWith('replaced');
 
-// document.body.innerHTML = "<button>Launch Meeting </button>";
-// let buttonElement = document.querySelector  (`button`);
-// buttonElement.style.backgroundColor = "rgb(0, 0 , 255)"; 
 
 
 let button = document.createElement('button');
