@@ -1,16 +1,16 @@
-// // //method 1
-// // document.body.innerHTML = "<h1>Hello world </h1>"; // create
-// // let h1Element = documnet.querySelecto(`h1`); //find;
-// // h1Element.style.color = "rgb(255, 0 , 0)"; //modify
+// //method 1
+// document.body.innerHTML = "<h1>Hello world </h1>"; // create
+// let h1Element = documnet.querySelecto(`h1`); //find;
+// h1Element.style.color = "rgb(255, 0 , 0)"; //modify
 
-// // //Method 2
+// //Method 2
 
-// // //create
-// // let h2Element = document.createElement(`h2`);
-// // //attach
-// // document.body.prepend(h2Element);
-// // //modify
-// // h2Element.textContent = "Nice to meet you!";
+// //create
+// let h2Element = document.createElement(`h2`);
+// //attach
+// document.body.prepend(h2Element);
+// //modify
+// h2Element.textContent = "Nice to meet you!";
 
 let exercisesElement = document.querySelector('#exercises');
 
@@ -52,13 +52,13 @@ let exercisesElement = document.querySelector('#exercises');
 // exercise1.after('after');
 //exercise1/replaceWith('replaced');
 
+// let button = document.createElement('button');
+// exercisesElement.prepend(button);
+// button.textContent = "Launch Meeting";
+// button.style.padding = "10px 25px";
+// button.style.color = "white";
+// button.style.borderRadius = "10px";
+// button.style.backgroundColor = "blue";
+// button.style.border = "none";
 
-
-let button = document.createElement('button');
-exercisesElement.prepend(button);
-button.textContent = "Launch Meeting";
-button.style.padding = "10px 25px";
-button.style.color = "white";
-button.style.borderRadius = "10px";
-button.style.backgroundColor = "blue";
-button.style.border = "none";
+let 
