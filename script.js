@@ -12,7 +12,6 @@
 // //modify
 // h2Element.textContent = "Nice to meet you!";
 
-
 let exercisesElement = document.querySelector('#exercises');
 
 let h1Element = document.createElement('h1'); //create
@@ -35,3 +34,4 @@ let h5Element = document.createElement('h5'); //create
 h5Element.textContent = "h5 Header"; //modify
 exercisesElement.append(h5Element) // Attach
 
+let h5Element = document.createElement('h5'); //create
