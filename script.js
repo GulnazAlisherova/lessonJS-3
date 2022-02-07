@@ -15,8 +15,8 @@
 let exercisesElement = document.querySelector('#exercises');
 
 //append - insert element before closing tag
-//prepend - insert element after closing tag
-
+//prepend - insert element after opening tag
+//before - 
 
 let h1Element = document.createElement('h1'); //create
 h1Element.textContent = "h1 Header";//modify
@@ -44,3 +44,4 @@ exercisesElement.append(h3Element) // Attach
  h6Element.textContent = "h6 Header"; //modify
 
 
+//exercise
