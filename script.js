@@ -12,4 +12,8 @@
 // //modify
 // h2Element.textContent = "Nice to meet you!";
 
-let h1 
+
+let exercisesElement = document.querySelector(`#exercises`);
+let h1Element = document.createElement(`h1`);
+h1Element.textContent = "h1 Header";
+exercisesElement.append(h1Element); //attach
