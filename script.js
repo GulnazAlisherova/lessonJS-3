@@ -100,4 +100,4 @@ let exercisesElement = document.querySelector('#exercises');
 let div =  document.createElement('div');
 exercisesElement.prepend(colorful);
 div.textContent = "Hello";
-div.style.color = "() * 255";
+div.style.color = `rgb()`;
