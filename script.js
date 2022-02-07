@@ -52,6 +52,10 @@
 // exercise1.after('after');
 // //exercise1/replaceWith('replaced');
 
-document.body.innerHTML = "<button>Launch Meeting </button>";
-let buttonElement = document.querySelecto(`button`);
-buttonElement.style.backgroundColor = "rgb(0, 0 , 255)"; 
+// document.body.innerHTML = "<button>Launch Meeting </button>";
+// let buttonElement = document.querySelector  (`button`);
+// buttonElement.style.backgroundColor = "rgb(0, 0 , 255)"; 
+
+
+let button = document.createElement('button');
+exercisesElement.prepend(button);
