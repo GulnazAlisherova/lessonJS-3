@@ -62,8 +62,10 @@ let exercisesElement = document.querySelector('#exercises');
 // button.style.border = "none";
 
 let shoppingList = ['Apple', 'Banana', 'Pineapple'];
+//create ul
 let listElement = document.createElement('ul');
 exercisesElement.prepend(listElement);
+//create li
 for (let i = 0; i < shoppingList.length; i++) {
   let listItemElement = document.createElement('li');
   listElement.append(listItemElement);
