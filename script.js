@@ -53,5 +53,5 @@
 // //exercise1/replaceWith('replaced');
 
 document.body.innerHTML = "<button>Launch Meeting </button>";
-let h1Element = documnet.querySelecto(`button`); 
-h1Element.style.color = "rgb(255, 0 , 0)"; 
+let buttonElement = document.querySelecto(`button`);
+buttonElement.style.backgroundColor = "rgb(0, 0 , 255)"; 
