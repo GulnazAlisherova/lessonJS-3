@@ -61,4 +61,4 @@ let exercisesElement = document.querySelector('#exercises');
 // button.style.backgroundColor = "blue";
 // button.style.border = "none";
 
-let 
+let shoppingList = ['Apple', 'Banana', 'Pineapple'];
