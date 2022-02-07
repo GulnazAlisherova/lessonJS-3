@@ -14,6 +14,7 @@
 
 
 let exercisesElement = document.querySelector(`#exercises`);
-let h1Element = document.createElement(`h1`);
-h1Element.textContent = "h1 Header";
+
+let h1Element = document.createElement(`h1`); //create
+h1Element.textContent = "h1 Header";//modify
 exercisesElement.append(h1Element); //attach
