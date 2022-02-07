@@ -74,3 +74,6 @@ for (let i = 0; i < shoppingList.length; i++) {
   listElement.append(listItemElement);
   listItemElement.textContent = shoppingList[i];
 }
+
+// how to copy 
+let button2 = button.cloneNode
