@@ -44,4 +44,4 @@ exercisesElement.append(h3Element) // Attach
  h6Element.textContent = "h6 Header"; //modify
 
 
-//exercise
+//Exercise
