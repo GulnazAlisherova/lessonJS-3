@@ -8,3 +8,5 @@ h1Element.style.color = "rgb(255, 0 , 0)"; //modify
 let h2Element = document.createElement(`h2`);
 //attach
 document.body.prepend(h2Element);
+//modify
+h2Element.textContent = "Nice to meet you!";
