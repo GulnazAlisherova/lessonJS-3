@@ -16,7 +16,8 @@ let exercisesElement = document.querySelector('#exercises');
 
 let h1Element = document.createElement('h1'); //create
 h1Element.textContent = "h1 Header";//modify
-exercisesElement.append(h1Element); //attach
+exercisesElement.append(h1Element); //attach 
+h1Element.style.color = "rgb(255, 0 , 0)"; //modify
 
 let h2Element = document.createElement('h2');
 h2Element.textContent = "h2 Header";
@@ -34,4 +35,6 @@ let h5Element = document.createElement('h5'); //create
 h5Element.textContent = "h5 Header"; //modify
 exercisesElement.append(h5Element) // Attach
 
-let h5Element = document.createElement('h5'); //create
+let h6Element = document.createElement('h6'); //create
+exercisesElement.append(h6Element) // Attach
+h6Element.textContent = "h6 Header"; //modify
