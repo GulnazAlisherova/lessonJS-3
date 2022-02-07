@@ -45,3 +45,4 @@ exercisesElement.append(h3Element) // Attach
 
 
 //Exercise
+let exercise1 = document.querySelector('#exercise1');
