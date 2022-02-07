@@ -59,3 +59,9 @@
 
 let button = document.createElement('button');
 exercisesElement.prepend(button);
+button.textContent = "Launch Meeting";
+button.style.padding = "10px 25px";
+button.style.color = "white";
+button.style.borderRadius = "10px";
+button.style.backgroundColor = "blue";
+button.style.border = "none";
