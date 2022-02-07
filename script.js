@@ -85,4 +85,16 @@
 // let list2 = listElement.cloneNode(true);
 // exercisesElement.prepend
 
-let table = tableElement.cloneNode(true);
+
+let table = document.createElement('ul');
+exercisesElement.prepend(listElement);
+//create li
+for (let i = 0; i < shoppingList.length; i++) {
+  let listItemElement = document.createElement('li');
+  listElement.append(listItemElement);
+  listItemElement.textContent = shoppingList[i];
+}
+
+// число 0-255 math.random() * 255
+
+let div =  document.createElement('div');
