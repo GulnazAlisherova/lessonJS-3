@@ -12,7 +12,7 @@
 // // //modify
 // // h2Element.textContent = "Nice to meet you!";
 
-// let exercisesElement = document.querySelector('#exercises');
+let exercisesElement = document.querySelector('#exercises');
 
 // //append - insert element before closing tag
 // //prepend - insert element after opening tag
@@ -50,14 +50,14 @@
 //  exercise1.after('after');
 // exercise1/replaceWith('replaced');
 
-  let button = document.createElement('button');
-  exercisesElement.prepend(button);
-  button.textContent = "Launch Meeting";
-  button.style.padding = "10px 25px";
-  button.style.color = "white";
-  button.style.borderRadius = "10px";
-  button.style.backgroundColor = "blue";
-  button.style.border = "none";
+  // let button = document.createElement('button');
+  // exercisesElement.prepend(button);
+  // button.textContent = "Launch Meeting";
+  // button.style.padding = "10px 25px";
+  // button.style.color = "white";
+  // button.style.borderRadius = "10px";
+  // button.style.backgroundColor = "blue";
+  // button.style.border = "none";
 
 
 
@@ -86,15 +86,18 @@
 // exercisesElement.prepend
 
 
-let table = document.createElement('ul');
-exercisesElement.prepend(listElement);
-//create li
-for (let i = 0; i < shoppingList.length; i++) {
-  let listItemElement = document.createElement('li');
-  listElement.append(listItemElement);
-  listItemElement.textContent = shoppingList[i];
-}
+// let table = document.createElement('ul');
+// exercisesElement.prepend(listElement);
+// //create li
+// for (let i = 0; i < shoppingList.length; i++) {
+//   let listItemElement = document.createElement('li');
+//   listElement.append(listItemElement);
+//   listItemElement.textContent = shoppingList[i];
+// }
 
 // число 0-255 math.random() * 255
 
 let div =  document.createElement('div');
+exercisesElement.prepend(colorful);
+div.textContent = "Hello";
+div.style.color = "() * 255";
