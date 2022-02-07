@@ -46,3 +46,8 @@ exercisesElement.append(h3Element) // Attach
 
 //Exercise
 let exercise1 = document.querySelector('#exercise1');
+exercise1.before('before');
+exercise1.prepend('prepend');
+exercise1.append('append');
+exercise1.after('after');
+//exercise1/replaceWith('replaced');
