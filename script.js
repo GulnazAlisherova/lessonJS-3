@@ -50,14 +50,14 @@
 //  exercise1.after('after');
 // exercise1/replaceWith('replaced');
 
-//  let button = document.createElement('button');
-//  exercisesElement.prepend(button);
-//  button.textContent = "Launch Meeting";
-//  button.style.padding = "10px 25px";
-//  button.style.color = "white";
-//  button.style.borderRadius = "10px";
-//  button.style.backgroundColor = "blue";
-//  button.style.border = "none";
+  let button = document.createElement('button');
+  exercisesElement.prepend(button);
+  button.textContent = "Launch Meeting";
+  button.style.padding = "10px 25px";
+  button.style.color = "white";
+  button.style.borderRadius = "10px";
+  button.style.backgroundColor = "blue";
+  button.style.border = "none";
 
 
 
@@ -78,8 +78,8 @@
 // button2.textContent = "Hello";
 // exercisesElement.prepend(button2);
 
-let button2 = button.cloneNode();
-button2.textContent = "Hello";
-button2.style.color = "tomato"
-
+let button2 = button.cloneNode(true);
+button2.textContent = "приветАндрей";
+button2.style.color = "tomato";
+button2.style.backgroundColor = "black";
 exercisesElement.prepend(button2);
