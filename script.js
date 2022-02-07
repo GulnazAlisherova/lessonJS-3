@@ -26,3 +26,7 @@ exercisesElement.append(h2Element) // Attach
 let h3Element = document.createElement('h3');
 h3Element.textContent = "h3 Header";
 exercisesElement.append(h3Element) // Attach
+
+let h4Element = document.createElement('h4');
+h4Element.textContent = "h4 Header";
+exercisesElement.append(h4Element) // Attach
